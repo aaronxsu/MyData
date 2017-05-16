@@ -1,0 +1,404 @@
+[
+ {
+   "FIPS": 42001,
+   "County": "Adams",
+   "center_lat": 39.8720003,
+   "center_lng": -77.22253692
+ },
+ {
+   "FIPS": 42003,
+   "County": "Allegheny",
+   "center_lat": 40.46728742,
+   "center_lng": -79.98642291
+ },
+ {
+   "FIPS": 42005,
+   "County": "Armstrong",
+   "center_lat": 40.81503037,
+   "center_lng": -79.47340362
+ },
+ {
+   "FIPS": 42007,
+   "County": "Beaver",
+   "center_lat": 40.68342746,
+   "center_lng": -80.35128703
+ },
+ {
+   "FIPS": 42009,
+   "County": "Bedford",
+   "center_lat": 40.007293,
+   "center_lng": -78.49142729
+ },
+ {
+   "FIPS": 42011,
+   "County": "Berks",
+   "center_lat": 40.41930296,
+   "center_lng": -75.93112197
+ },
+ {
+   "FIPS": 42013,
+   "County": "Blair",
+   "center_lat": 40.48548003,
+   "center_lng": -78.34934125
+ },
+ {
+   "FIPS": 42015,
+   "County": "Bradford",
+   "center_lat": 41.79110319,
+   "center_lng": -76.51858929
+ },
+ {
+   "FIPS": 42017,
+   "County": "Bucks",
+   "center_lat": 40.33490641,
+   "center_lng": -75.11329638
+ },
+ {
+   "FIPS": 42019,
+   "County": "Butler",
+   "center_lat": 40.91076846,
+   "center_lng": -79.91734151
+ },
+ {
+   "FIPS": 42021,
+   "County": "Cambria",
+   "center_lat": 40.49120485,
+   "center_lng": -78.71919667
+ },
+ {
+   "FIPS": 42023,
+   "County": "Cameron",
+   "center_lat": 41.43874015,
+   "center_lng": -78.20943869
+ },
+ {
+   "FIPS": 42025,
+   "County": "Carbon",
+   "center_lat": 40.9192781,
+   "center_lng": -75.71143343
+ },
+ {
+   "FIPS": 42027,
+   "County": "Centre",
+   "center_lat": 40.91924926,
+   "center_lng": -77.82528045
+ },
+ {
+   "FIPS": 42029,
+   "County": "Chester",
+   "center_lat": 39.97476534,
+   "center_lng": -75.75660938
+ },
+ {
+   "FIPS": 42031,
+   "County": "Clarion",
+   "center_lat": 41.19272798,
+   "center_lng": -79.42506971
+ },
+ {
+   "FIPS": 42033,
+   "County": "Clearfield",
+   "center_lat": 41.00036709,
+   "center_lng": -78.47584267
+ },
+ {
+   "FIPS": 42035,
+   "County": "Clinton",
+   "center_lat": 41.23279675,
+   "center_lng": -77.64312857
+ },
+ {
+   "FIPS": 42037,
+   "County": "Columbia",
+   "center_lat": 41.04903604,
+   "center_lng": -76.4103551
+ },
+ {
+   "FIPS": 42039,
+   "County": "Crawford",
+   "center_lat": 41.68541382,
+   "center_lng": -80.11342554
+ },
+ {
+   "FIPS": 42041,
+   "County": "Cumberland",
+   "center_lat": 40.16750946,
+   "center_lng": -77.26895851
+ },
+ {
+   "FIPS": 42043,
+   "County": "Dauphin",
+   "center_lat": 40.41965692,
+   "center_lng": -76.77991224
+ },
+ {
+   "FIPS": 42045,
+   "County": "Delaware",
+   "center_lat": 39.91646699,
+   "center_lng": -75.40663919
+ },
+ {
+   "FIPS": 42047,
+   "County": "Elk",
+   "center_lat": 41.42813271,
+   "center_lng": -78.64973088
+ },
+ {
+   "FIPS": 42049,
+   "County": "Erie",
+   "center_lat": 41.99408102,
+   "center_lng": -80.04097692
+ },
+ {
+   "FIPS": 42051,
+   "County": "Fayette",
+   "center_lat": 39.91937295,
+   "center_lng": -79.6521301
+ },
+ {
+   "FIPS": 42053,
+   "County": "Forest",
+   "center_lat": 41.513517,
+   "center_lng": -79.23804578
+ },
+ {
+   "FIPS": 42055,
+   "County": "Franklin",
+   "center_lat": 39.92777178,
+   "center_lng": -77.72427262
+ },
+ {
+   "FIPS": 42057,
+   "County": "Fulton",
+   "center_lat": 39.92478759,
+   "center_lng": -78.11512241
+ },
+ {
+   "FIPS": 42059,
+   "County": "Greene",
+   "center_lat": 39.85472669,
+   "center_lng": -80.22965135
+ },
+ {
+   "FIPS": 42061,
+   "County": "Huntingdon",
+   "center_lat": 40.41603224,
+   "center_lng": -77.98304139
+ },
+ {
+   "FIPS": 42063,
+   "County": "Indiana",
+   "center_lat": 40.65288818,
+   "center_lng": -79.09357825
+ },
+ {
+   "FIPS": 42065,
+   "County": "Jefferson",
+   "center_lat": 41.13132722,
+   "center_lng": -79.00126129
+ },
+ {
+   "FIPS": 42067,
+   "County": "Juniata",
+   "center_lat": 40.53424972,
+   "center_lng": -77.40606718
+ },
+ {
+   "FIPS": 42069,
+   "County": "Lackawanna",
+   "center_lat": 41.43901887,
+   "center_lng": -75.61255073
+ },
+ {
+   "FIPS": 42071,
+   "County": "Lancaster",
+   "center_lat": 40.04580904,
+   "center_lng": -76.25171054
+ },
+ {
+   "FIPS": 42073,
+   "County": "Lawrence",
+   "center_lat": 40.99318923,
+   "center_lng": -80.33775411
+ },
+ {
+   "FIPS": 42075,
+   "County": "Lebanon",
+   "center_lat": 40.36750626,
+   "center_lng": -76.46214416
+ },
+ {
+   "FIPS": 42077,
+   "County": "Lehigh",
+   "center_lat": 40.61455161,
+   "center_lng": -75.60136197
+ },
+ {
+   "FIPS": 42079,
+   "County": "Luzerne",
+   "center_lat": 41.17828234,
+   "center_lng": -75.99234897
+ },
+ {
+   "FIPS": 42081,
+   "County": "Lycoming",
+   "center_lat": 41.34452151,
+   "center_lng": -77.06973421
+ },
+ {
+   "FIPS": 42083,
+   "County": "McKean",
+   "center_lat": 41.81030776,
+   "center_lng": -78.57147476
+ },
+ {
+   "FIPS": 42085,
+   "County": "Mercer",
+   "center_lat": 41.30232127,
+   "center_lng": -80.26030707
+ },
+ {
+   "FIPS": 42087,
+   "County": "Mifflin",
+   "center_lat": 40.61267666,
+   "center_lng": -77.62031533
+ },
+ {
+   "FIPS": 42089,
+   "County": "Monroe",
+   "center_lat": 41.06082675,
+   "center_lng": -75.34120973
+ },
+ {
+   "FIPS": 42091,
+   "County": "Montgomery",
+   "center_lat": 40.20979444,
+   "center_lng": -75.37289469
+ },
+ {
+   "FIPS": 42093,
+   "County": "Montour",
+   "center_lat": 41.0279331,
+   "center_lng": -76.66502677
+ },
+ {
+   "FIPS": 42095,
+   "County": "Northampton",
+   "center_lat": 40.75449852,
+   "center_lng": -75.31301346
+ },
+ {
+   "FIPS": 42097,
+   "County": "Northumberland",
+   "center_lat": 40.85142548,
+   "center_lng": -76.71219981
+ },
+ {
+   "FIPS": 42099,
+   "County": "Perry",
+   "center_lat": 40.40406845,
+   "center_lng": -77.25937014
+ },
+ {
+   "FIPS": 42101,
+   "County": "Philadelphia",
+   "center_lat": 40.00433235,
+   "center_lng": -75.14061439
+ },
+ {
+   "FIPS": 42103,
+   "County": "Pike",
+   "center_lat": 41.33248037,
+   "center_lng": -75.0330919
+ },
+ {
+   "FIPS": 42105,
+   "County": "Potter",
+   "center_lat": 41.74414006,
+   "center_lng": -77.89907228
+ },
+ {
+   "FIPS": 42107,
+   "County": "Schuylkill",
+   "center_lat": 40.70742335,
+   "center_lng": -76.22366
+ },
+ {
+   "FIPS": 42109,
+   "County": "Snyder",
+   "center_lat": 40.7710558,
+   "center_lng": -77.07285966
+ },
+ {
+   "FIPS": 42111,
+   "County": "Somerset",
+   "center_lat": 39.97138405,
+   "center_lng": -79.03125311
+ },
+ {
+   "FIPS": 42113,
+   "County": "Sullivan",
+   "center_lat": 41.44802141,
+   "center_lng": -76.51512371
+ },
+ {
+   "FIPS": 42115,
+   "County": "Susquehanna",
+   "center_lat": 41.82048991,
+   "center_lng": -75.80286585
+ },
+ {
+   "FIPS": 42117,
+   "County": "Tioga",
+   "center_lat": 41.77326601,
+   "center_lng": -77.25818395
+ },
+ {
+   "FIPS": 42119,
+   "County": "Union",
+   "center_lat": 40.96465152,
+   "center_lng": -77.06446543
+ },
+ {
+   "FIPS": 42121,
+   "County": "Venango",
+   "center_lat": 41.40335321,
+   "center_lng": -79.76309093
+ },
+ {
+   "FIPS": 42123,
+   "County": "Warren",
+   "center_lat": 41.81669338,
+   "center_lng": -79.27881577
+ },
+ {
+   "FIPS": 42125,
+   "County": "Washington",
+   "center_lat": 40.19102542,
+   "center_lng": -80.2520184
+ },
+ {
+   "FIPS": 42127,
+   "County": "Wayne",
+   "center_lat": 41.64961119,
+   "center_lng": -75.30553231
+ },
+ {
+   "FIPS": 42129,
+   "County": "Westmoreland",
+   "center_lat": 40.31024476,
+   "center_lng": -79.47157997
+ },
+ {
+   "FIPS": 42131,
+   "County": "Wyoming",
+   "center_lat": 41.51884729,
+   "center_lng": -76.01848349
+ },
+ {
+   "FIPS": 42133,
+   "County": "York",
+   "center_lat": 39.92182724,
+   "center_lng": -76.72606781
+ }
+]
