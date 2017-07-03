@@ -236,7 +236,7 @@ https://tiles.planet.com/data/v1/{item_type}/{item_id}/{z}/{x}/{y}.png?api_key={
 The following variables will be replaced by the client making the request:
 
 | Parameter     | Type          | Value  						|
-| ------------- |:-------------:| -----------------------------------------------------:|
+| ------------- |:-------------:| ----------------------------------------------------- |
 | item_type     | string 	| Items in the Data API supported by the tiling service |
 | item_id       | string      	| Unique id for the data tiles requested 		|
 | z             | int      	| Zoom level 						|
