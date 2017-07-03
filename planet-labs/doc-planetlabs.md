@@ -213,6 +213,36 @@ https://api.planet.com/data/v1/item-types/PSScene4Band/items/20160930_180021_0e2
 ### Response
 The result can be included in an `<img>` tag.
 
+## Get Tiles
+Planet Tile Services allow users to easily add Planet imagery mosaics to web mapping platforms that provide XYZ support, without having to download and maintain GeoTiff files. These services offer a low-friction way for web developers and GIS analysts to interact with and derive value from Planet imagery.
+
+XYZ (OpenStreetMap) tile services provide a pyramid of tiles at 16 zoom levels so that it can be easily displayed in web browsers. As with other XYZ tiling services, the Planet XYZ Tiles have these attributes:
+
+* Tiles are 256×256 pixels
+* Tiles use the Web Mercator coordinate reference system (EPSG:3857)
+* Tiles are available between zoom levels 0 and 15
+* Tiles are rendered in PNG format with an alpha channel
+* Grid is a rectangle with 2n rows and 2n columns, where n is the zoom level
+* Grid uses 0,0 as the top, left corner in the grid
+* Tiles are found at the path z/x/y.png, where z is the zoom level, and x and y are the positions in the tile grid
+
+The API key may be passed as a parameter to the tile server: `api_key={your_api_key}`. For the Data API Tile Service, the user must also have permission to access the specific item-type in the request.
+
+### API End Point
+To access specific item-type tiles through the Data API Tile Service, use the following request structure:
+```
+https://tiles.planet.com/data/v1/{item_type}/{item_id}/{z}/{x}/{y}.png?api_key={your_api_key}
+```
+The following variables will be replaced by the client making the request:
+
+| Parameter     | Type          | Value  						|
+| ------------- |:-------------:| -----------------------------------------------------:|
+| item_type     | string 	| Items in the Data API supported by the tiling service |
+| item_id       | string      	| Unique id for the data tiles requested 		|
+| z             | int      	| Zoom level 						|
+| x             | int      	| Column in the grid 					|
+| y             | int      	| Column in the grid 					|
+
 ## Activate the Asset/Scene/Imagery
 ### API End Point
 Use a `GET` request to the value of `_links` object's `assets`, which belongs to one of the features in the response:
