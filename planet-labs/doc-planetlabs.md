@@ -1,4 +1,4 @@
-#Imagery Quickstart
+# Imagery Quickstart
 
 Planet's imagery comes in different 'Item Types' and 'Asset Types'. An item is a single picture taken by a satellite at a certain time. Items have multiple asset types including the image in different formats, and supporting metadata files.
 
@@ -27,24 +27,24 @@ Planet's imagery comes in different 'Item Types' and 'Asset Types'. An item is a
     * `analytic_dn`: non-radiometrically calibrated imagery suitable for analytic applications
     * `udm`: image mask file which provides information on areas of unusable data within an image (e.g. cloud and non-imaged areas)
 
-#JavaScript Client
+# JavaScript Client
 [API Documentation](http://planetlabs.github.io/client/api/)
 
-#Data API
+# Data API
 
-###Quick Search Workflows
+### Quick Search Workflows
 
-####Filter Items
+#### Filter Items
 
-#####API End Point
+##### API End Point
 `https://api.planet.com/data/v1/quick-search`
 
-#####Header
+##### Header
 `Content-Type: application/json`
 
 `Authorization: Base <your api key>`
 
-#####Request Body
+##### Request Body
 Use a `POST` request with the following as request body:
 
 ```JavaScript
@@ -138,7 +138,7 @@ Use a `POST` request with the following as request body:
 }
 ```
 
-#####Response
+##### Response
 ```JavaScript
 {
     '_links': {
@@ -199,9 +199,9 @@ Use a `POST` request with the following as request body:
         // a lot of other features
 }
 ```
-####Get Thumbnail
+#### Get Thumbnail
 
-#####API End Point
+##### API End Point
 Use a `GET` request to the value of `_links` object's `thumbnail`, which belongs to one of the features in the response:
 
 e.g.
@@ -209,14 +209,14 @@ e.g.
 https://api.planet.com/data/v1/item-types/PSScene4Band/items/20160930_180021_0e2f/thumb
 ```
 
-#####Header
+##### Header
 `Authorization: Base <your api key>`
 
-#####Response
+##### Response
 The result can be included in an `<img>` tag.
 
-####Activate the Asset/Scene/Imagery
-#####API End Point
+#### Activate the Asset/Scene/Imagery
+##### API End Point
 Use a `GET` request to the value of `_links` object's `assets`, which belongs to one of the features in the response:
 
 e.g.
@@ -224,10 +224,10 @@ e.g.
 https://api.planet.com/data/v1/item-types/PSScene4Band/items/20160930_180021_0e2f/assets/
 ```
 
-#####Header
+##### Header
 `Authorization: Base <your api key>`
 
-#####Response
+##### Response
 ```JavaScript
 {
     'analytic': {
@@ -251,7 +251,7 @@ https://api.planet.com/data/v1/item-types/PSScene4Band/items/20160930_180021_0e2
     }
 }
 ```
-#####API End Point
+##### API End Point
 Use a `GET` request to the value of `_links` object's `activate` (of analytic type in this example):
 
 e.g.
@@ -259,10 +259,10 @@ e.g.
 https://api.planet.com/data/v1/assets/eyJpIjogIjIwMTYwOTA1XzE5MjQ1Ml8wYzQxIiwgImMiOiAiUFNTY2VuZTRCYW5kIiwgInQiOiAiYW5hbHl0aWMiLCAiY3QiOiAiaXRlbS10eXBlIn0/activate
 ```
 
-#####Header
+##### Header
 `Authorization: Base <your api key>`
 
-#####Response
+##### Response
 There is no response body for this request but it has a status code `202` at first. This means that the scene/imagery/asset you requested is processing. After this request, sending `GET` requests to the same API end point at the beginning of this section (Activate the Asset/Scene/Imagery) will enable you to observe if the asset you request is ready yet. When it is ready, the `status` of it will become `active`, and there will be a new key `location` identifying the location of this asset with a `expires_at` key as well. Like the following (notice that this is the response body of the call to the first end point of this section:
 
 ```JavaScript
@@ -291,4 +291,4 @@ There is no response body for this request but it has a status code `202` at fir
 }
 ```
 
-####Download the Asset/Scene/Imagery
+#### Download the Asset/Scene/Imagery
