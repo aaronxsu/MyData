@@ -4868,19 +4868,6 @@ definitions:
             description: 'additional related information for a datasource'
           composites:
             $ref: '#/definitions/Composite'
-          bands:
-            type: array
-            items:
-              type: object
-              properties:
-                name:
-                  type: string
-                number:
-                  type: string
-                wavelength:
-                  type: number
-                  format: float
-
 
   Datasource:
     allOf:
